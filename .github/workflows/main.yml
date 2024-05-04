@@ -1,0 +1,8 @@
+name: classaction
+on: workflow_dispatch
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing Workflow
+        run: echo "Welcome to GitHub Actions Class"
